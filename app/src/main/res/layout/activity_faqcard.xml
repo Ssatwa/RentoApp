@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FAQCardActivity">
+
+    <TextView
+        android:id="@+id/frequent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="90dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/faqContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/question1Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How can I find hostels using this app?"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:id="@+id/answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: To find hostels, simply open the app and navigate to the Hostels section. You can browse through the list of available hostels, filter them based on location, price, or amenities, and view detailed information about each hostel."
+                    android:padding="8dp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/question2Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/question2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: What information is provided for each hostel?"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:id="@+id/answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: For each hostel, the app provides details such as location, room types, amenities available (e.g., Wi-Fi, laundry, study areas), pricing, and any additional services offered (e.g., meal plans, transportation). You can also view photos of the hostel to get a better idea of its facilities."
+                    android:padding="8dp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/question3Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/question3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: Are there any discounts or special offers available for students?
+"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:id="@+id/answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: Yes, some hostels may offer discounts or special offers exclusively for students. The app will highlight any ongoing promotions or deals so that you can take advantage of them when making your booking."
+                    android:padding="8dp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/question4Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:background="?attr/selectableItemBackground">
+
+                <TextView
+                    android:id="@+id/question4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Q: What if I have additional questions about a specific hostel or its services?"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:id="@+id/answer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A: If you have any additional questions or need more information about a particular hostel, the app provides a 'contact landlord/caretaker' feature. You can reach out to the hostel directly through phone or email, and they will be happy to assist you with your queries."
+                    android:padding="8dp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

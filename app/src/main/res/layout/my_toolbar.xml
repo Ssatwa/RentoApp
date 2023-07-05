@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C4B7CC">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/home"/>
+
+    <TextView
+        android:id="@+id/hom"
+        android:text="Home"
+        android:textSize="20dp"
+        android:textColor="#F81100"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/abt"
+        android:text="About"
+        android:textSize="20dp"
+        android:textColor="#F81403"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/faq"
+        android:text="FAQ"
+        android:textSize="20dp"
+        android:textColor="#FA1100"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/logout"
+        android:text="Logout"
+        android:textSize="20dp"
+        android:textColor="#FA1504"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.Toolbar>
